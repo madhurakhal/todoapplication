@@ -8,5 +8,8 @@ namespace TodoApplication.Services
         List<Todo> GetTodos();
 
         Todo GetTodoById(long id);
+        int Create(Todo todo);
+        int Update(Todo todo);
+        void Delete(long requestId);
     }
 }
